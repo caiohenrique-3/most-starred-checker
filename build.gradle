@@ -1,6 +1,7 @@
 plugins {
     id 'java'
-}
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'}
 
 group = 'org.carmo'
 version = '1.0-SNAPSHOT'
@@ -10,10 +11,15 @@ repositories {
 }
 
 dependencies {
+    implementation('org.json:json:20230618')
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
 test {
     useJUnitPlatform()
+}
+
+application {
+    mainClassName = "app.Main";
 }
