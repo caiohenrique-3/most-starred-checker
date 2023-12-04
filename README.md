@@ -7,3 +7,7 @@ Apps" checkpoint on the [fullstack roadmap](https://roadmap.sh/full-stack)
 
 `gradle clean build` &&
 `java -jar build/libs/most-starred-checker-1.0-SNAPSHOT-all.jar`
+
+## Preview
+
+![Screenshot1](showcase.png)
