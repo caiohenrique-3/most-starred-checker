@@ -11,3 +11,9 @@ Apps" checkpoint on the [fullstack roadmap](https://roadmap.sh/full-stack)
 ## Preview
 
 ![Screenshot1](showcase.png)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
